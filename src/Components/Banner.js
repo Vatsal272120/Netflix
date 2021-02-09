@@ -4,7 +4,7 @@ import '../Stylesheets/Banner.css'
 const Banner = () => {
     return (
         <div className = 'Banner'>
-            
+            Banner
         </div>
     )
 }
