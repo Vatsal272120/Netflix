@@ -3,10 +3,12 @@ import '../Stylesheets/Banner.css'
 
 const Banner = () => {
     return (
-        <div className = 'Banner'>
-            Banner
-        </div>
-    )
+        <header className="banner"  
+        style = {{ 
+        backgroundSize : 'cover' ,
+        backgroundImage : `url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuTL9nyf11D_hcLE9dHkvLzwj6U684U0j_eg&usqp=CAU)`
+    }}></header>
+    ) 
 }
 
 export default Banner
